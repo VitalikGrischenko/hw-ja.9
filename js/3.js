@@ -1,8 +1,6 @@
-const arrs = [];
-let arrSum = 0;
-for (let i = 1; i <= 7; i += 1) {
-    const arr = Number(Math.round(Math.random() * (200 - 1) + 1));
-    arrs.push(arr);
-    arrSum += arr;
+let myArray = [1, 2, 3, 4, 5];
+let sum = 0;
+for (let i = 0; i < myArray.length; i++) {
+  sum += myArray[i];
 }
-console.log(arrSum)
+console.log("Сума всіх чисел у масиві: " + sum);
