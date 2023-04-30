@@ -6,4 +6,4 @@ for (let i = 1; i < myArray.length; i++) {
     max = myArray[i];
   }
 }
-console.log("Максимальне значення в масиві: " + max);
+console.log("Максимальне значення в масиві: " + max)
